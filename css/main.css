@@ -141,3 +141,6 @@ section#profile_pic_list {
     margin: 0 auto;
 }
 
+.img-big {
+    width: 500px;
+}
