@@ -1,0 +1,143 @@
+body {
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: teal;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+h2 {
+    color: teal;
+    margin: 20px;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.red {
+    color: crimson;
+}
+
+img#profile_pic {
+    float: right;
+    border: 2px solid #fff;
+    width: 70px;
+    margin-top: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+
+a.add_pic {
+    float: right;
+    color: #fff;
+    background-color: teal;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+form#add_pic, form#edit_pic {
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid teal;
+    padding: 20px;
+}
+
+form#edit_pic div {
+    margin: 5px 0;
+}
+
+form#edit_pic textarea,
+form#edit_pic input[type="text"] {
+    width: 100%;
+}
+
+button {
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+}
+
+button.action_add {
+    background-color: teal;
+}
+
+.alert-error {
+    width: 80%;
+    margin: 20px auto;
+    padding: 5px 10px;
+    background-color: lightpink;
+    color: crimson;
+    border: 1px solid crimson;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    margin: 5px;
+}
+
+.thumb-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: teal;
+}
+
+.container:hover .overlay {
+    opacity: 0.75;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+section#profile_pic_list {
+    width: 70%;
+    margin: 0 auto;
+}
+
